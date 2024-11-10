@@ -1,1 +1,12 @@
-Just open in google colab `hackaton (1).ipynb`, create directory `/content/input` and put videos in it, run all cells in order and wait about a second per 5 frames 
+# Installation
+```cmd
+git clone https://github.com/jailedfish/hackaton_rzd
+cd hackaton_rzd
+poetry update
+hackaton_rzd
+```
+# Running
+```cmd
+python server.py
+```
+after this go [here](http://localhost:3000), and upload video to page after this click on update button sometimes while you find `File` button. Touch it and you'll got your image
